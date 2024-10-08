@@ -33,6 +33,46 @@ The website consist of many features for the users to go and see this features i
 </ul>
 
 <br><br><br>
+
+<h1>Technologies</h1>
+
+Each page body houses a children of this list and are place in order
+
+<ul>
+<h2>header<h2>:
+<br>
+Consist of link to different pages
+The children are place in a flex
+  <ul>
+    -logo
+    -info tabs
+    -nav tabe
+  </ul>
+
+<h2>herobaner</h2>
+  <ul>
+    -A title of the page
+    -A input type of text and submit button together (for the Main page)
+  </ul>
+
+<h2>main</h2>
+  <ul>
+    -consist of the Content of the page
+  </ul>
+
+<h2>footer</h2>
+<br>
+consist of many hyperlinks <br>
+There are three div which is parent to the footer-content which places its children within a grid
+<br>
+footer-section
+  <ul>
+    -footer-section (company)
+    -footer-section (support)
+    -footer-section (folow us)
+  </ul>
+</ul>
+
 As much good looking this website it has responsive features that adapt to the change of the screen window size
 
 <br> 
