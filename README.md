@@ -39,7 +39,7 @@ The website consist of many features for the users to go and see this features i
 Each page body houses a children of this list and are place in order
 <br>
 
-<h2>header<h2>
+<h2>header</h2>
 Consist of link to different pages 
 <br>
 The children are place in a flex
