@@ -76,6 +76,7 @@ footer-section
 As much good looking this website it has responsive features that adapt to the change of the screen window size
 
 <br> 
+<h1></h1>
 For example with the header: <br>
 The header houses a navigation list that push the user into different pages. A logo is also present withing the header
 The header changes style as shrinks further (in order)
