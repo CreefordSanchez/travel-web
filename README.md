@@ -4,4 +4,4 @@ This traveling website has three pages: the Main page, the About Us page, and th
 <br><br>
 
 The Main page includes a hero banner with a title and a search bar for users to explore, along with a submit button. Below that, there's content featuring advertisements for various travel destinations.
-<img src="./src/img/main-readme-hb.png" style="height: 50vh; width: 100%; background-size: cover;">
+<img src="./src/img/main-readme-hb.png">
