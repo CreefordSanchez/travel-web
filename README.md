@@ -39,26 +39,26 @@ The website consist of many features for the users to go and see this features i
 Each page body houses a children of this list and are place in order
 <br>
 
-<h2>header</h2>
+<h3>header</h3>
 Consist of link to different pages 
 <br>
 The children are place in a flex
 
   <ul>
-    -logo
-    -info tabs
-    -nav tabe
+    <p>-logo</p>
+    <p>-info tabs</p>
+    <p>-nav tab</p>
   </ul>
 
 <h2>herobaner</h2>
   <ul>
-    -A title of the page
-    -A input type of text and submit button together (for the Main page)
+    <p>-A title of the page</p>
+    <p>-A input type of text and submit button together (for the Main page)</p>
   </ul>
 
 <h2>main</h2>
   <ul>
-    -consist of the Content of the page
+    <p>-consist of the Content of the page</p>
   </ul>
 
 <h2>footer</h2>
@@ -68,9 +68,9 @@ There are three div which is parent to the footer-content which places its child
 <br>
 footer-section
   <ul>
-    -footer-section (company)
-    -footer-section (support)
-    -footer-section (folow us)
+    <p>-footer-section (company)</p>
+    <p>-footer-section (support)</p>
+    <p>-footer-section (folow us)</p>
   </ul>
 
 As much good looking this website it has responsive features that adapt to the change of the screen window size
