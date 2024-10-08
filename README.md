@@ -18,8 +18,10 @@ The website consist of many features for the users to go and see this features i
 <h1>About Us</h1>
 
 <ul> 
-<p>- Hero banner</p> 
-<p>- Information about the website and its purpose</p> 
+<p>- Hero banner introducing the company's values and vision</p> 
+<p>- Detailed information about the website, its purpose, and the services provided</p> 
+<p>- History of the company, including its background and mission to help travelers</p> 
+<p>- Information about the team, highlighting expertise in travel and customer service</p> 
 </ul>
 
 <h1>Contact Us</h1>
