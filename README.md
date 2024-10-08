@@ -35,11 +35,19 @@ The website consist of many features for the users to go and see this features i
 <br><br><br>
 
 <h1>Technologies</h1>
-
+<br><br>
+<h2>Technologies we used</h2>
+<ul>
+  <p>-Use of @media to use for responsive design</p>
+  <p>-Use of root for repetively use of our colors</p>
+  <p>-Sementic tags (div,header,footer,section)</p>
+  <p>-Use of flex and grid for the layout</p>
+</ul>
+<br><br>
 Each page body houses a children of this list and are place in order
 <br>
 
-<h3>header</h3>
+<h2>header</h2>
 Consist of link to different pages 
 <br>
 The children are place in a flex
@@ -73,10 +81,10 @@ footer-section
     <p>-footer-section (folow us)</p>
   </ul>
 
-As much good looking this website it has responsive features that adapt to the change of the screen window size
-
 <br> 
 <h1></h1>
+As much good looking this website it has responsive features that adapt to the change of the screen window size
+<br>
 For example with the header: <br>
 The header houses a navigation list that push the user into different pages. A logo is also present withing the header
 The header changes style as shrinks further (in order)
