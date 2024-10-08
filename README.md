@@ -21,6 +21,7 @@ The footer houses 3 section of links which are the info of our company, Support,
 The footer changes style as shrinks further (in order)
 <img src="./src/img/footer1-rm.png">
 footer content set its children into a 2 grid template
+<br>
 <img src="./src/img/footer2-rm.png">
 
 The Main page includes a hero banner with a title and a search bar for users to explore, along with a submit button.
