@@ -369,7 +369,7 @@ h4 {
  Media Queries
 ----------------------------------*/
 
-@media screen and (max-width:900px) {
+@media screen and (max-width:978px) {
 
   .paragraph-box {
     width: calc(100% - 20vw);
@@ -394,7 +394,7 @@ h4 {
   }
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 734px) {
   .info-tab {
   display: none;  
 }
