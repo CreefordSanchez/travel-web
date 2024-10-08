@@ -7,7 +7,7 @@ This traveling website project helps users discover new destinations by providin
 
 The website consist of many features for the users to go and see this features include
 
-<h1>Main Page</h1>
+<h3>Main Page</h3>
 
 <ul> 
 <p>- A hero banner with a search bar and a submit button for navigation</p> 
@@ -15,7 +15,7 @@ The website consist of many features for the users to go and see this features i
 <p>- A list of destinations the user can explore</p> 
 </ul>
 
-<h1>About Us</h1>
+<h3>About Us</h3>
 
 <ul> 
 <p>- Hero banner introducing the company's values and vision</p> 
@@ -24,7 +24,7 @@ The website consist of many features for the users to go and see this features i
 <p>- Information about the team, highlighting expertise in travel and customer service</p> 
 </ul>
 
-<h1>Contact Us</h1>
+<h3>Contact Us</h3>
 
 <ul> 
 <p>- Information about frequently asked questions</p> 
