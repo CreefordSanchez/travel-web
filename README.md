@@ -53,6 +53,7 @@ The header changes style as shrinks further (in order)
 set info tab and nav display to none while the humburger icon iline
 <img src="./src/img/header3-RD.png">
 
+<h1></h1>
 Each page body houses a children of this list and are place in order
 <br>
 
