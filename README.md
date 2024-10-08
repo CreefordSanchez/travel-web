@@ -38,11 +38,11 @@ The website consist of many features for the users to go and see this features i
 
 Each page body houses a children of this list and are place in order
 
-<ul>
 <h2>header<h2>:
 <br>
 Consist of link to different pages
 The children are place in a flex
+
   <ul>
     -logo
     -info tabs
@@ -71,7 +71,6 @@ footer-section
     -footer-section (support)
     -footer-section (folow us)
   </ul>
-</ul>
 
 As much good looking this website it has responsive features that adapt to the change of the screen window size
 
