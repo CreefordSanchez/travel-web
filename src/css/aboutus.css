@@ -5,7 +5,7 @@
     margin-inline: auto;
   }
 
-*{
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;   
@@ -63,15 +63,22 @@ header {
     margin-left: 35px;
   }
    
+  .info-tab a {
+    font-weight: 700;
+  }
+  
   .info-tab a+a {
     margin-left: 60px;
   }
    
   .logo {
     color: var(--app-purple-color);
-    p {
+
+    h1 {
       margin-left: 10px;
       line-height: 72px;
+      font-size: 17px;
+      font-weight: 800;
     }
    
     i {
@@ -88,6 +95,7 @@ header {
   .fa-solid:hover{
     transform: scale(1.2);
   }
+
  /*----------------------------------
   Utility Class
 ----------------------------------*/
@@ -123,8 +131,7 @@ header {
     align-items: center;
     text-align: center;
     position: relative;
-    margin-bottom: 0px;  
-    
+    margin-bottom: 0px;     
 }
 
 .hero-banner-content {
@@ -147,7 +154,6 @@ header {
 
 .bottom-right-button {
     padding: 0.5vw 2vw;
-    
     background-color:var(--app-white1-color);
     color: var(--app-gray-title-color);
     border: none;
@@ -161,8 +167,6 @@ header {
     color: #0e0d0d;
 }
 
-
-   
 /* ---------------------------------- */
 /* Card                               */
 /* ---------------------------------- */    
@@ -307,12 +311,15 @@ footer {
   
   .footer-content {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap; 
   }
   
+  .footer-section:nth-child(2) {
+    margin: 0 15vw;
+  }
+
   .footer-section {
-    flex: 1;
     margin: 0 20px;
     color: #2e2e2e;
   }
@@ -396,6 +403,29 @@ footer {
         font-size: 16px;
     }
 
+}
+
+@media screen and (max-width: 570px) {
+  .footer-section:nth-child(2) {
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 499px) {
+  .footer-content {
+    justify-content: center;
+    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2, 150px);
+  }
+
+  .footer-bottom {
+    margin-top: 40px;
+  }
+
+  .footer-content div:nth-child(3) {
+    margin-top: 10px;
+  }
 }
 
 @media screen and (max-width: 400px) {

@@ -97,15 +97,21 @@ header li a {
   margin-left: 35px;
 }
 
+.info-tab a {
+  font-weight: 700;
+}
+
 .info-tab a+a {
   margin-left: 60px;
 }
 
 .logo {
   color: var(--app-purple-color);
-  p {
+  h1 {
     line-height: 72px;
     margin-left: 10px;
+    font-size: 17px;
+    font-weight: 800;
   }
 
   i {
@@ -159,6 +165,7 @@ input[type=text] {
   width: 70%;
   border:none;
   padding: 10px 15px;
+  outline: none;
 }
 
 input[type=text]:focus {
@@ -223,6 +230,10 @@ input[type=submit] {
   border-radius: 10px;
 }
 
+.box > p, div {
+  padding: 0 10px;
+}
+
 .box >  p, .cost{
   margin-top: 10px;
 
@@ -253,7 +264,6 @@ input[type=submit] {
 }
 
 .cost {
-
   i {
     margin-top: 10px;
     font-size: 12px;
@@ -278,6 +288,7 @@ input[type=submit] {
 .box:hover{
   transform: scale(1.05);
 }
+
 /*----------------------------------
  Desktop Footer
 ----------------------------------*/
@@ -290,13 +301,12 @@ footer {
 
 .footer-content {
   display: flex;
-  justify-content: space-between;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
-.footer-section {
-  flex: 1;
-  margin: 0 20px;
+.footer-section:nth-child(2) {
+  margin: 0 15vw;
 }
 
 .footer-section ul {
@@ -378,7 +388,6 @@ h4 {
     height: 360px;
   }
 
-
   main {
     flex-wrap: wrap;
     overflow: hidden;
@@ -395,6 +404,12 @@ h4 {
 
   .content-web h1 {
     font-size: 55px;
+  }
+}
+
+@media screen and (max-width: 570px) {
+  .footer-section:nth-child(2) {
+    margin: 0;
   }
 }
 
@@ -426,7 +441,7 @@ h4 {
   }
 }
 
-@media screen and (max-width: 427px) {
+@media screen and (max-width: 499px) {
   .footer-content {
     justify-content: center;
     display: flex;

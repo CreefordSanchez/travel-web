@@ -78,16 +78,23 @@ header nav a {
   line-height: 72px;
   margin-left: 35px;
 }
-   
+ 
+.info-tab a {
+  font-weight: 700;
+}
+
 .info-tab a+a {
   margin-left: 60px;
 }
    
 .logo {
   color: var(--app-purple-color);
-  p {
+
+  h1 {
     line-height: 72px;
     margin-left: 10px;
+    font-size: 17px;
+    font-weight: 800;
   }
   
   i {
@@ -365,15 +372,14 @@ footer {
  
 .footer-content {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   flex-wrap: wrap;
 }
  
-.footer-section {
-  flex: 1;
-  margin: 0 20px;
+.footer-section:nth-child(2) {
+  margin: 0 15vw;
 }
- 
+
 .footer-section ul {
   margin-top: 0px;
   list-style: none;
@@ -433,6 +439,28 @@ h4 {
 @media screen and (max-width:768px) {
   .col, .form-col, .col-location, iframe {
       width: calc(50% - 40px);
+  }
+}
+
+
+@media screen and (max-width: 499px) {
+  .footer-section:nth-child(2) {
+    margin: 0;
+  }
+  
+  .footer-content {
+    justify-content: center;
+    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2, 150px);
+  }
+
+  .footer-bottom {
+    margin-top: 40px;
+  }
+
+  .footer-content div:nth-child(3) {
+    margin-top: 10px;
   }
 }
 
