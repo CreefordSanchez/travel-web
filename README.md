@@ -37,10 +37,11 @@ The website consist of many features for the users to go and see this features i
 <h1>Technologies</h1>
 
 Each page body houses a children of this list and are place in order
-
-<h2>header<h2>:
 <br>
-Consist of link to different pages
+
+<h2>header<h2>
+Consist of link to different pages 
+<br>
 The children are place in a flex
 
   <ul>
