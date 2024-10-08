@@ -1,4 +1,5 @@
-<img src="./src/img/main-page-her-banner.jpg" style="height:70vh; width: 100%;">
+<img src="./src/img/main-page-her-banner.jpg" style="height:60vh; width: 100%;">
+##Traveling Website 
 This traveling website has three pages: the Main page, the About Us page, and the Contact Us page. The Main page gives an overview, the About Us page shares company info, and the Contact Us page lets users get in touch.
 
 <br><br>
@@ -11,7 +12,7 @@ The header houses a navigation list that push the user into different pages. A l
 The header changes style as shrinks further (in order)
 <img src="./src/img/header1-RD.png">
 Set nav to display none
-<img src="./src/img/header2-RD.png">
+<img src="./src/img/header2-RD.png"><br>
 set info tab display to none while the humburger icon iline
 <img src="./src/img/header3-RD.png">
 
