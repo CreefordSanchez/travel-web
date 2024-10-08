@@ -1,8 +1,7 @@
 <img src="./src/img/main-page-her-banner.jpg" style="height:60vh; width: 100%;">
 <h1 style="font-size: 40px">Traveling Website</h1>
 
-This traveling website project helps users discover new destinations by providing essential travel information, tips, and resources. It offers a simple and user-friendly interface where visitors can explore popular places, learn about travel options, and get inspired for their next adventure.
-
+This traveling website project helps users see new destinations by providing travel information, tips, and resources. It offers a simple and user-friendly interface where visitors can explore popular places, learn about travel options and expenses.
 <br><br>
 
 The website consist of many features for the users to go and see this features include
