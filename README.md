@@ -44,6 +44,15 @@ The website consist of many features for the users to go and see this features i
   <p>-Use of flex and grid for the layout</p>
 </ul>
 <br><br>
+Some examples of a @media uses is this
+<br>
+For example with the header: <br>
+The header houses a navigation list that push the user into different pages. A logo is also present withing the header
+The header changes style as shrinks further (in order)
+<img src="./src/img/header1-RD.png">
+set info tab and nav display to none while the humburger icon iline
+<img src="./src/img/header3-RD.png">
+
 Each page body houses a children of this list and are place in order
 <br>
 
@@ -80,14 +89,3 @@ footer-section
     <p>-footer-section (support)</p>
     <p>-footer-section (folow us)</p>
   </ul>
-
-<br> 
-<h1></h1>
-As much good looking this website it has responsive features that adapt to the change of the screen window size
-<br>
-For example with the header: <br>
-The header houses a navigation list that push the user into different pages. A logo is also present withing the header
-The header changes style as shrinks further (in order)
-<img src="./src/img/header1-RD.png">
-set info tab and nav display to none while the humburger icon iline
-<img src="./src/img/header3-RD.png">
