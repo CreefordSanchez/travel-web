@@ -24,6 +24,9 @@ footer content set its children into a 2 grid template
 <br>
 <img src="./src/img/footer2-rm.png">
 
+<br><br><br>
+
+<h1 style="font-size: 20px">Main Page</h1>
 The Main page includes a hero banner with a title and a search bar for users to explore, along with a submit button.
 <img src="./src/img/main-readme-hb.png">
 
