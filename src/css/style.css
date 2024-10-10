@@ -129,6 +129,35 @@ header li a {
   transform: scale(1.2);
 }
 
+body {
+  position: relative;
+}
+
+.menu-section{
+  position: absolute;
+  display: none;
+  justify-content: right;
+  padding: 0;
+  ul {
+    background-color: var(--app-white1-background);
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    padding: 10px;
+    border-radius: 0 0 10px 10px ;
+  }
+
+  li {
+    margin: 5px 0;
+  }
+
+  li:nth-child(4) {
+    border-top: 1px solid var(--app-purple-color);
+    padding-top: 15px;
+  }
+  
+}
+
 /*----------------------------------
  Main
 ----------------------------------*/
