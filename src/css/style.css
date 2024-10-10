@@ -138,6 +138,7 @@ body {
   display: none;
   justify-content: right;
   padding: 0;
+  
   ul {
     background-color: var(--app-white1-background);
     display: flex;
